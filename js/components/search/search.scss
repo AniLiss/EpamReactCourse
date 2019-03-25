@@ -1,0 +1,22 @@
+.search {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__input {
+    width: 100%;
+  }
+
+  &__filters {
+    display: flex;
+    flex-grow: 1;
+  }
+
+  &__filters-title {
+    margin: 0;
+  }
+}
+
+@mixin layout-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
