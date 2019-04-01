@@ -21,6 +21,7 @@ const mockData = [
 
 export const MovieCards = () => {
     return (<div className="movies-cards">
+        {console.log('composeMovieCards(mockData)', composeMovieCards(mockData))}
         {composeMovieCards(mockData)}
     </div>)
 };

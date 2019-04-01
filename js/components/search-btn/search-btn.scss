@@ -1,0 +1,14 @@
+.search-btn {
+  background-color: #333;
+  color: #fff;
+
+  &--light {
+    background-color: #fff;
+    color: #ff2f5b;
+  }
+
+  &--active {
+    background-color: #ff2f5b;
+    color: #fff;
+  }
+}

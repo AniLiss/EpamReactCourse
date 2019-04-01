@@ -1,17 +1,23 @@
 import React from 'react';
 import {Search} from '../search/search';
-import {SearchButton} from '../search-btn/serch-btn';
+import {Button} from '../search-btn/serch-btn';
 import {SearchResults} from '../search-results/search-results';
+import {Movie} from '../movie-info/movie-info';
+import {Logo} from '../logo/logo';
+
+import './header.scss';
 
 export const Header = () => {
     return (
         <header className="header">
             <nav className="header__nav">
-                <h1>netflixroulette</h1>
-                <SearchButton />
+                <Logo />
+                <Button text="Search" light />
             </nav>
-        <Search />
-        <SearchResults />
+            <Search />
+
+            <Movie />
+            <SearchResults />
         </header>
     )
 };
