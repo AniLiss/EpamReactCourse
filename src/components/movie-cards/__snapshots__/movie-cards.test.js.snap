@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieCards is expected to render MovieCards correctly 1`] = `
+<div
+  className="movies-cards"
+>
+  <MovieCard
+    genre="Action & Adventure"
+    key="0"
+    releaseDate={2003}
+    title="Kill Bill. Vol. 1"
+  />
+  <MovieCard
+    genre="Action & Adventure"
+    key="1"
+    releaseDate={2004}
+    title="Kill Bill. Vol. 2"
+  />
+  <MovieCard
+    genre="Oscar-winning Movie"
+    key="2"
+    releaseDate={1994}
+    title="Pulp Fiction"
+  />
+</div>
+`;

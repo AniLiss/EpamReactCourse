@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo is expected to render logo correct 1`] = `
+<h1
+  className="logo"
+>
+  netflixroulette
+</h1>
+`;

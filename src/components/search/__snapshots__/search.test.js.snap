@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search is expected to render Search correctly 1`] = `
+<div
+  className="search"
+>
+  <h2
+    className="search__title"
+  >
+    Find your movie
+  </h2>
+  <input
+    className="search__input"
+  />
+  <div
+    className="search__filters"
+  >
+    <h2
+      className="search__filters-title"
+    >
+      Search by
+    </h2>
+    <Button
+      active={true}
+      text="Title"
+    />
+    <Button
+      text="Genre"
+    />
+  </div>
+  <Button
+    active={true}
+    text="Search"
+  />
+</div>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieCard is expected to render MovieCard correctly 1`] = `
+<article
+  className="movie-card"
+>
+  <img
+    alt="Kill Bill. Vol. 1"
+    className="movie-card__img"
+  />
+  <div
+    className="movie-card__desc"
+  >
+    <h3
+      className="movie-card__title"
+    >
+      Title
+    </h3>
+    <span
+      className="movie-card__year"
+    >
+      02/03/1994
+    </span>
+    <span
+      className="movie-card__genre"
+    >
+      drama
+    </span>
+  </div>
+</article>
+`;

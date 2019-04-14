@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer is expected to render footer correct 1`] = `
+<Footer>
+  <footer
+    className="footer"
+  >
+    <Logo>
+      <h1
+        className="logo"
+      >
+        netflixroulette
+      </h1>
+    </Logo>
+  </footer>
+</Footer>
+`;

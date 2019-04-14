@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button is expected to render active Button correctly 1`] = `
+<button
+  className="search-btn search-btn--active "
+>
+  active btn
+</button>
+`;
+
+exports[`Button is expected to render default Button correctly 1`] = `
+<button
+  className="search-btn  "
+>
+  default btn
+</button>
+`;
+
+exports[`Button is expected to render light Button correctly 1`] = `
+<button
+  className="search-btn  search-btn--light"
+>
+  light btn
+</button>
+`;

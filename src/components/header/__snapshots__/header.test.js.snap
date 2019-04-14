@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header is expected to render header correct 1`] = `
+<Header>
+  <header
+    className="header"
+  >
+    <nav
+      className="header__nav"
+    >
+      <Logo>
+        <h1
+          className="logo"
+        >
+          netflixroulette
+        </h1>
+      </Logo>
+      <Button
+        light={true}
+        text="Search"
+      >
+        <button
+          className="search-btn  search-btn--light"
+        >
+          Search
+        </button>
+      </Button>
+    </nav>
+    <Search>
+      <div
+        className="search"
+      >
+        <h2
+          className="search__title"
+        >
+          Find your movie
+        </h2>
+        <input
+          className="search__input"
+        />
+        <div
+          className="search__filters"
+        >
+          <h2
+            className="search__filters-title"
+          >
+            Search by
+          </h2>
+          <Button
+            active={true}
+            text="Title"
+          >
+            <button
+              className="search-btn search-btn--active "
+            >
+              Title
+            </button>
+          </Button>
+          <Button
+            text="Genre"
+          >
+            <button
+              className="search-btn  "
+            >
+              Genre
+            </button>
+          </Button>
+        </div>
+        <Button
+          active={true}
+          text="Search"
+        >
+          <button
+            className="search-btn search-btn--active "
+          >
+            Search
+          </button>
+        </Button>
+      </div>
+    </Search>
+    <Movie>
+      <section
+        className="movie"
+      >
+        <div
+          className="movie__img"
+        >
+          <img
+            alt="Pulp Fiction"
+            height="400"
+            width="200"
+          />
+        </div>
+        <div
+          className="movie__info"
+        >
+          <h2
+            className="movie__title"
+          >
+            Pulp Fiction
+          </h2>
+          <h3
+            className="movie__short-desc"
+          >
+            Oscar Winning Movies
+          </h3>
+          <span
+            className="movie__year"
+          >
+            1994
+          </span>
+          <span
+            className="movie__duration"
+          >
+            154 min
+          </span>
+          <p
+            className="movie__long-desc"
+          >
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          </p>
+        </div>
+      </section>
+    </Movie>
+    <SearchResults>
+      <div
+        className="search-results"
+      >
+        <div
+          className="search-results__movies"
+        >
+          7 movies found
+        </div>
+        <ul
+          className="search-results__filters-list"
+        >
+          <li
+            className="search-results__filters-item"
+          >
+            Sort by
+          </li>
+          <li
+            className="search-results__filters-item"
+          >
+            release date
+          </li>
+          <li
+            className="search-results__filters-item"
+          >
+            rating
+          </li>
+        </ul>
+        <div
+          className="search-results__suggestions"
+        >
+          Films by 
+          <span>
+            Drama genre
+          </span>
+        </div>
+      </div>
+    </SearchResults>
+  </header>
+</Header>
+`;
