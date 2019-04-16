@@ -3,6 +3,7 @@
 exports[`Button is expected to render active Button correctly 1`] = `
 <button
   className="search-btn search-btn--active "
+  onClick={[Function]}
 >
   active btn
 </button>
@@ -11,6 +12,7 @@ exports[`Button is expected to render active Button correctly 1`] = `
 exports[`Button is expected to render default Button correctly 1`] = `
 <button
   className="search-btn  "
+  onClick={[Function]}
 >
   default btn
 </button>
@@ -19,6 +21,7 @@ exports[`Button is expected to render default Button correctly 1`] = `
 exports[`Button is expected to render light Button correctly 1`] = `
 <button
   className="search-btn  search-btn--light"
+  onClick={[Function]}
 >
   light btn
 </button>

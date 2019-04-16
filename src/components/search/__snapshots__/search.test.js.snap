@@ -1,36 +1,66 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Search is expected to render Search correctly 1`] = `
-<div
-  className="search"
->
-  <h2
-    className="search__title"
-  >
-    Find your movie
-  </h2>
-  <input
-    className="search__input"
-  />
+<Search>
   <div
-    className="search__filters"
+    className="search"
   >
     <h2
-      className="search__filters-title"
+      className="search__title"
     >
-      Search by
+      Find your movie
     </h2>
+    <input
+      className="search__input"
+    />
+    <div
+      className="search__filters"
+    >
+      <h2
+        className="search__filters-title"
+      >
+        Search by
+      </h2>
+      <Button
+        active={true}
+        dataId="Title"
+        onClick={[Function]}
+        text="Title"
+      >
+        <button
+          className="search-btn search-btn--active "
+          data-id="Title"
+          onClick={[Function]}
+        >
+          Title
+        </button>
+      </Button>
+      <Button
+        active={false}
+        dataId="Genre"
+        onClick={[Function]}
+        text="Genre"
+      >
+        <button
+          className="search-btn  "
+          data-id="Genre"
+          onClick={[Function]}
+        >
+          Genre
+        </button>
+      </Button>
+    </div>
     <Button
       active={true}
-      text="Title"
-    />
-    <Button
-      text="Genre"
-    />
+      text="Search"
+    >
+      <button
+        className="search-btn search-btn--active "
+        onClick={[Function]}
+      >
+        Search
+      </button>
+    </Button>
   </div>
-  <Button
-    active={true}
-    text="Search"
-  />
-</div>
+</Search>
 `;

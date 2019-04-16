@@ -21,6 +21,7 @@ exports[`Header is expected to render header correct 1`] = `
       >
         <button
           className="search-btn  search-btn--light"
+          onClick={[Function]}
         >
           Search
         </button>
@@ -48,19 +49,28 @@ exports[`Header is expected to render header correct 1`] = `
           </h2>
           <Button
             active={true}
+            dataId="Title"
+            onClick={[Function]}
             text="Title"
           >
             <button
               className="search-btn search-btn--active "
+              data-id="Title"
+              onClick={[Function]}
             >
               Title
             </button>
           </Button>
           <Button
+            active={false}
+            dataId="Genre"
+            onClick={[Function]}
             text="Genre"
           >
             <button
               className="search-btn  "
+              data-id="Genre"
+              onClick={[Function]}
             >
               Genre
             </button>
@@ -72,6 +82,7 @@ exports[`Header is expected to render header correct 1`] = `
         >
           <button
             className="search-btn search-btn--active "
+            onClick={[Function]}
           >
             Search
           </button>

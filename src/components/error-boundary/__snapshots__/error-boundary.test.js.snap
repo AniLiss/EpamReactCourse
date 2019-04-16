@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error Boundary is expected to render erroe message 1`] = `
+<div>
+  Unhandled error in component: 
+  Something went terribly wrong
+  ;
+</div>
+`;
